@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormularioFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/dusty"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTituloFormulario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:lines="2"
+            android:text="@string/formulario"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textColor="@color/green"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtCorreo"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="@string/correo"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/darker"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtComentario"
+            android:layout_width="300dp"
+            android:minHeight="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColorHint="@color/darker"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="@string/comentario"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtCalifica"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/califica"
+            android:textColor="@color/darker"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/rbEstrellas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center"
+            android:numStars="5"
+            android:progressTint="@color/green_dark"
+            android:rating="0"
+            android:stepSize="1.0" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:backgroundTint="@color/green_dark"
+            android:textColor="@color/dusty"
+            android:layout_marginTop="24dp"
+            android:textSize="18sp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/enviar"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</FrameLayout>

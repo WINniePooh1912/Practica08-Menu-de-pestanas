@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Practica 08</string>
+
+    <string name="tab_principal">Principal</string>
+    <string name="tab_galeria">Galeria</string>
+    <string name="tab_contacto">Contacto</string>
+
+    <!-- Principal -->
+    <string name="conclusion">Conclusión</string>
+    <string name="conclusion_texto">Esta práctica, aunque corta, me ayudó a comprender mejor el funcionamiento de la reproducción de audio y me enseñó otro tipo de menú que puede aplicarse al momento de desarrollar una aplicación, puesto que no tenía yo idea de que se podia hacer uso de Tab Menu en aplicaciones moviles.
+
+    Me gustó investigar como es que se podía mover una seekbar de forma automática mientras se reproducía una canción, es interesante ver como funciona eso, me sentí como si hiciera una app de reproducción de musica, estuvo divertido.</string>
+
+    <!-- Galeria -->
+    <string name="musica">Música</string>
+    <string name="elige">Elige la canción que quieras</string>
+    <string name="volumen">Volumen</string>
+    <string name="tiempo">00:00</string>
+
+    <string-array name="canciones">
+        <item>Fast Times - Sabrina Carpenter</item>
+        <item>Gorgeous - Taylor Swift</item>
+        <item>Roma - Torreblanca</item>
+    </string-array>
+
+    <!-- Contacto -->
+    <string name="formulario">Formulario</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="comentario">Comentario</string>
+    <string name="califica">Califica la aplicación</string>
+    <string name="enviar">Enviar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

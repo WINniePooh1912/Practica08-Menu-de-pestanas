@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GaleriaFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/dusty"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTituloGaleria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:lines="2"
+            android:text="@string/musica"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textColor="@color/green"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtElige"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/elige"
+            android:textColor="@color/darker"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spnCanciones"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+
+        <SeekBar
+            android:id="@+id/sbReproduccion"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:max="100"
+            android:progress="0"
+            android:progressTint="#594343" />
+
+        <TextView
+            android:id="@+id/txtReproduccion"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/tiempo"
+            android:textColor="@color/darker"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtVolumen"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/volumen"
+            android:textColor="@color/darker"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/sbVolumen"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:max="100"
+            android:progress="50"
+            android:progressTint="#594343" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- App-->
+    <color name="darker">#212121</color>
+    <color name="dark">#3C3D37</color>
+
+    <!-- color de fondo -->
+    <color name="dusty">#E6E6CD</color>
+
+    <color name="green_dark">#3E5D35</color>
+    <color name="green">#557C56</color>
+    <color name="green_light">#A7D37A</color>
+
+    <color name="purple_dark">#433878</color>
+    <color name="purple">#6140A9</color>
+    <color name="purple_light">#C4B1F0</color>
+</resources>
